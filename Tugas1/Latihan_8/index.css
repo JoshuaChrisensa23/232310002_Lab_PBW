@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@1,800&display=swap');
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    /* align-items: center; */
+    /* display: flex; */
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 48pt;
+}
+
+header,
+main,
+footer {
+    margin: 35px auto;
+}
+
+main {
+    font-family: "Jost", cursive;
+    /* margin: 0 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 25px;
+}
+
+#Identitas {
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+.Identity h4 {
+    font-size: 18pt;
+    margin-bottom: 0px;
+}
+
+.Identity p {
+    font-size: 16pt;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 26pt;
+    margin-bottom: 20px;
+}
+
+.Project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* row-gap: 25px; */
+}
+
+.project {
+    border-radius: 16px;
+}
+
+#project3 {
+    margin-left: -420px;
+    box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#project2 {
+    margin-top: -50px;
+    margin-right: -420px;
+    box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#project1 {
+    margin-top: -100px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
